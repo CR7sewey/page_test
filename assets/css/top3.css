@@ -1,0 +1,19 @@
+.top3-content {
+    max-width: 64rem;  /* segurar a meio!!!*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.top3-content h2 {
+    padding-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+/*desnecessario nos elements*/
+.top3-content h2~p {   /* atpdps os p pôs h2 */
+    margin-bottom: 3rem;
+}
